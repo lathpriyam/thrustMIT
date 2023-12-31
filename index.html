@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="stylesignup.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+</head>
+<title>Sign Up Form</title>
+
+<body>
+
+    <div id="logo">
+        <p>
+            <a href="https://www.thrustmit.in/">
+                <img src="logo for  white background (1).png" alt="https://www.thrustmit.in/" width="500px">
+            </a>
+        </p>
+    </div>
+    <p>
+        Welcome to thrustMIT. 
+        <br>
+        To Continue, Please Sign Up!
+    </p>
+
+    <div id="form">
+        <h1> Sign Up Here</h1>
+        <form action="form.php"></form>
+
+        Name <input type="text" placeholder="Enter Your Name" id="Name" class="NameByUser"><br>
+        <label for="Email">
+            Email <input type="email" placeholder="Enter Your Email" id="Email" class="ContactByUser"><br>
+        </label>
+        <label for="Contact">
+            Contact Number <input type="text" placeholder="Enter Your Contact Number" id="Contact"
+                class="ContactByUser"><br>
+        </label>
+        <label for="Password">
+            Password <input type="text" placeholder="Enter Password" id="Password" class="PasswordByUSer"><br>
+        </label>
+        <label for="Reenter">
+            Re-Enter Password <input type="text" placeholder="Confirm Password" id="Confirm" class="PasswordByUSer"><br>
+        </label>
+        <label for="Subsystem">
+            Select Subsystem
+            <select name="Subsystem" class="Subsystem">
+                <option value="no-subsystem" id="select" class="Subsystem">Select your Subsystem</option>
+                <option value="Management" id="Management" class="Subsystem"> Management</option>
+                <option value="AeroD" id="AeroD" class="Subsystem">Aerodynamics</option>
+                <option value="avi" id="avi" class="Subsystem">Avionics</option>
+                <option value="payl" id="payl" class="Subsystem">Payload and Research</option>
+                <option value="prop" id="prop" class="Subsystem">Propulsion</option>
+                <option value="struc" id="struc" class="Subsystem">Structures</option>
+            </select>
+        </label>
+        <br>
+        <button>Sign up!</button>
+        <button>Reset</button>
+        <br>
+
+
+        Already have an Account? <a href="signin.html"> Sign In</a>
+    </div>
+</body>
+
+
+
+</html>
